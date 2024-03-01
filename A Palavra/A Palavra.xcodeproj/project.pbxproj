@@ -13,6 +13,7 @@
 		A2FB06E62B9172D100DDEA85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2FB06E42B9172D100DDEA85 /* Main.storyboard */; };
 		A2FB06E82B9172D300DDEA85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2FB06E72B9172D300DDEA85 /* Assets.xcassets */; };
 		A2FB06EB2B9172D300DDEA85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2FB06E92B9172D300DDEA85 /* LaunchScreen.storyboard */; };
+		A2FB06F82B917A5C00DDEA85 /* nvi in Resources */ = {isa = PBXBuildFile; fileRef = A2FB06F72B917A5C00DDEA85 /* nvi */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A2FB06E72B9172D300DDEA85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2FB06EA2B9172D300DDEA85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2FB06EC2B9172D300DDEA85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2FB06F72B917A5C00DDEA85 /* nvi */ = {isa = PBXFileReference; lastKnownFileType = folder; path = nvi; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		A2FB06DD2B9172D100DDEA85 /* A Palavra */ = {
 			isa = PBXGroup;
 			children = (
+				A2FB06F22B9179CC00DDEA85 /* versions */,
 				A2FB06DE2B9172D100DDEA85 /* AppDelegate.swift */,
 				A2FB06E02B9172D100DDEA85 /* SceneDelegate.swift */,
 				A2FB06E22B9172D100DDEA85 /* BibleViewController.swift */,
@@ -65,6 +68,14 @@
 				A2FB06EC2B9172D300DDEA85 /* Info.plist */,
 			);
 			path = "A Palavra";
+			sourceTree = "<group>";
+		};
+		A2FB06F22B9179CC00DDEA85 /* versions */ = {
+			isa = PBXGroup;
+			children = (
+				A2FB06F72B917A5C00DDEA85 /* nvi */,
+			);
+			path = versions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2FB06EB2B9172D300DDEA85 /* LaunchScreen.storyboard in Resources */,
+				A2FB06F82B917A5C00DDEA85 /* nvi in Resources */,
 				A2FB06E82B9172D300DDEA85 /* Assets.xcassets in Resources */,
 				A2FB06E62B9172D100DDEA85 /* Main.storyboard in Resources */,
 			);
